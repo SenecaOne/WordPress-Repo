@@ -1,6 +1,6 @@
 # WordPress Repo
 
-This is simply a skeleton repo for a WordPress site forked from Mark Jaquith's [WP-Skeleton][wpskeleton]!
+This is simply a skeleton repo for a WordPress site forked from Mark Jaquith's [WP-Skeleton](https://github.com/markjaquith/WordPress-Skeleton)!
 
 ## Assumptions
 
