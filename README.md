@@ -6,8 +6,8 @@ This is simply a skeleton repo for a WordPress site forked from Mark Jaquith's [
 
 * WordPress as a Git submodule in `/wp/`
 * Custom content directory in `/content/` (cleaner, and also because it can't be in `/wp/`)
+* Custom uploads directory in `/media/uploads`
 * `wp-config.php` in the root (because it can't be in `/wp/`)
-* All writable directories are symlinked to similarly named locations under `/shared/`.
 
 ## Questions & Answers
 
