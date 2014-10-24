@@ -20,6 +20,11 @@ define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
 
 // ========================
+// Custom Uploads Directory
+// ========================
+define( 'UPLOADS', 'media/uploads' );
+
+// ========================
 // Multisite settings
 // ========================
 
@@ -86,6 +91,13 @@ define( 'WP_DEBUG_DISPLAY', false );
 // ======================================
 if ( file_exists( dirname( __FILE__ ) . '/memcached.php' ) )
 	$memcached_servers = include( dirname( __FILE__ ) . '/memcached.php' );
+
+// ======================================================================
+// Disabling WordPress' Automatic Update and anything that may mess up VC
+// ======================================================================
+define( 'AUTOMATIC_UPDATER_DISABLED', FALSE );
+define( 'DISALLOW_FILE_EDIT', TRUE );
+define( 'DISALLOW_FILE_MODS', TRUE );
 
 // ===========================================================================================
 // This can be used to programatically set the stage when deploying (e.g. production, staging)
