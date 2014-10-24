@@ -19,6 +19,24 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
 
+// ========================
+// Multisite settings
+// ========================
+
+//** Allow Multisite
+define( 'WP_ALLOW_MULTISITE', TRUE );
+
+
+//** Network setup
+//define( 'MULTISITE',            TRUE );
+//define( 'SUBDOMAIN_INSTALL',    FALSE );
+//$base = '/wpbeta/';
+//define( 'DOMAIN_CURRENT_SITE',  'localhost' );
+//define( 'PATH_CURRENT_SITE',    '/wpbeta/' );
+//define( 'SITE_ID_CURRENT_SITE', 1 );
+//define( 'BLOG_ID_CURRENT_SITE', 1 );
+/**/
+
 // ================================================
 // You almost certainly do not want to change these
 // ================================================
